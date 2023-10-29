@@ -1,0 +1,78 @@
+.App {
+  padding: 1rem;
+}
+
+.filter_input {
+  width: 50%;
+  height: 30px;
+}
+
+.table_container {
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 1rem;
+}
+
+tr {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 0.5fr repeat(4, 1fr);
+  border-bottom: 1px solid #EDEDED;
+}
+
+
+td,
+th {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.table_checkbox {
+  width: 100%;
+  margin: auto;
+}
+
+.table_checkbox input {
+  cursor: pointer;
+}
+
+.active_row {
+  background-color: #fafafa !important;
+}
+
+.action_row {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+
+.delete_button {
+  background-color: #FC5A78;
+  border: 0px;
+  padding: 1rem;
+  border-radius: 3rem;
+  color: #ffff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no_data_text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
